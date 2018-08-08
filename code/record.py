@@ -107,6 +107,7 @@ if __name__ == '__main__':
     fp.write("import thread\n")
     fp.write("import pyHook\n")
     fp.write("import pythoncom\n")
+    fp.write("import os\n")
     fp.write("import sys\n\n")
     fp.write("def onKeyDown(event):\n")
     fp.write("   if event.Key == 'Escape':\n")
