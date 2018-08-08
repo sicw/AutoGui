@@ -69,6 +69,7 @@ def onMouseRightUp(event):
 def onKeyDown(event):
    if event.Key == 'Escape':
       fp=open("cmd.py","a");
+      fp.write("    os._exit(0);\n");
       fp.write("\n\n\n")
       fp.write("if __name__ == '__main__':\n");
       fp.write("    hookmanager = pyHook.HookManager()\n")
